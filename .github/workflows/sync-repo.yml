@@ -1,0 +1,26 @@
+name: sync-repo
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+  schedule:
+    # Runs at 01:00 UTC (9:00 AM Beijing) every day
+    - cron:  '0 1 * * *'
+
+jobs:
+  sync-repo:
+
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+
+    steps:
+
+    - name: Mirror the Github organization repos to Gitee.
+      uses: Yikun/hub-mirror-action@v1.0
+      with:
+        src: github/dgiot_ui
+        dst: gitee/dgiot_ui
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        dst_token:  ${{ secrets.GITEE_TOKEN }}
+        static_list: "dgiot-dashboard"
