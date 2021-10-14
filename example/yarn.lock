@@ -25,7 +25,7 @@
   resolved "https://registry.npmjs.org/@types/estree/-/estree-0.0.48.tgz"
   integrity sha512-LfZwXoGUDo0C3me81HXgkBg5CTQYb6xzEl+fNmbO4JdRiSKQ8A0GD1OBBvKAIsbCUgoyAty7m99GqqMQe784ew==
 
-"@vitejs/plugin-vue@^1.2.5":
+"@vitejs/plugin-vue@1.2.5":
   version "1.2.5"
   resolved "https://registry.npmjs.org/@vitejs/plugin-vue/-/plugin-vue-1.2.5.tgz"
   integrity sha512-GIR31mdXTEfvElmBUaRhDc5v7lfdkEdawWQqJRiaRL/5qKsH+xusukglkvJz5y7+c6dEpxgmvcATv2BbB7+fzQ==
@@ -49,7 +49,7 @@
     "@vue/compiler-core" "3.1.5"
     "@vue/shared" "3.1.5"
 
-"@vue/compiler-sfc@^3.0.5":
+"@vue/compiler-sfc@3.1.5":
   version "3.1.5"
   resolved "https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.1.5.tgz"
   integrity sha512-mtMY6xMvZeSRx9MTa1+NgJWndrkzVTdJ1pQAmAKQuxyb5LsHVvrgP7kcQFvxPHVpLVTORbTJWHaiqoKrJvi1iA==
@@ -483,7 +483,7 @@ vite@2.6.7:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vue@^3.0.5:
+vue@3.1.5:
   version "3.1.5"
   resolved "https://registry.npmjs.org/vue/-/vue-3.1.5.tgz"
   integrity sha512-Ho7HNb1nfDoO+HVb6qYZgeaobt1XbY6KXFe4HGs1b9X6RhkWG/113n4/SrtM1LUclM6OrP/Se5aPHHvAPG1iVQ==
