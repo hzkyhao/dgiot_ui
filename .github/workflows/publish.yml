@@ -1,17 +1,10 @@
 name: publish
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
   workflow_dispatch:
-    branches:
-      - master
-    tags:
-      - 'v*'
+    push:
+      tags:
+        - 'v*'
 
 jobs:
   publish:

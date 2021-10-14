@@ -2,7 +2,6 @@
   "name": "dgiot_ui",
   "version": "1.0.0",
   "description": "dgiot_ui",
-  "main": "index.ts",
   "license": "Mozilla Public License Version 2.0",
   "private": false,
   "homepage": "https://github.com/dgiot/dgiot_ui.git",
