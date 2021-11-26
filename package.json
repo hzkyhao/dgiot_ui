@@ -41,7 +41,7 @@
     "@babel/preset-typescript": "7.15.0",
     "@types/node": "16.10.9",
     "@vue/babel-plugin-jsx": "1.1.0",
-    "@vue/compiler-sfc": "3.2.20",
+    "@vue/compiler-sfc": "3.2.23",
     "babel-plugin-module-resolver": "4.1.0",
     "babel-preset-env": "1.7.0",
     "babel-preset-stage-3": "6.24.1",

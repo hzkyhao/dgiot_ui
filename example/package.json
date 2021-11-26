@@ -6,11 +6,11 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "3.2.20"
+    "vue": "3.2.23"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "1.9.3",
-    "@vue/compiler-sfc": "3.2.20",
+    "@vue/compiler-sfc": "3.2.23",
     "vite": "2.6.7"
   }
 }
